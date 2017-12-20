@@ -1,17 +1,43 @@
 {
   "name": "pretty-interaction-icons",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "mo-js": "^0.288.2",
+  "version": "1.0.0",
+  "description": "pretty interaction icons for React",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel lib -d build",
+    "lint": "eslint lib/**; exit 0",
+    "lint:watch": "esw -w lib/**",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hungweiwu/pretty-interaction-icons.git"
+  },
+  "keywords": [
+    "React",
+    "mo.js"
+  ],
+  "author": "Wei-Wei Wu wuxx1045@umn.edu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hungweiwu/pretty-interaction-icons/issues"
+  },
+  "homepage": "https://github.com/hungweiwu/pretty-interaction-icons#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.13.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-watch": "^3.1.3",
+    "polished": "^1.9.0",
+    "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-scripts": "1.0.17"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "styled-components": "^2.3.2"
   }
 }

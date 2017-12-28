@@ -129,12 +129,12 @@ ringColor: PropTypes.string,
 
 // radius of the ring from the svg icon
 ringRadius: PropTypes.oneOf([
-    'extraSmall',
-    'small',
-    'medium',
-    'large',
-    'extraLarge'
-  ]),
+  'extraSmall',
+  'small',
+  'medium',
+  'large',
+  'extraLarge'
+]),
 
 // opacity of burst items (between 0-1)
 ringOpacity: PropTypes.number,
@@ -185,4 +185,51 @@ size: PropTypes.oneOf([
 
 ### MediumClap
 
+#### Props
+
+```javascript
+// current clap count to be shown
+clapCount: PropTypes.number,
+
+// total number of claps
+clapCountTotal: PropTypes.number,
+
+// define value updates in this function (count updates)
+onClick: PropTypes.func,
+
+// duration of animation
+duration: PropTypes.number
+```
+
 ### Music
+
+#### Props
+
+```javascript
+// size of the svg icon
+size: PropTypes.oneOf([
+  'extraSmall',
+  'small',
+  'medium',
+  'large',
+  'extraLarge'
+]),
+
+// fill of the svg icon
+color: PropTypes.string,
+
+// outline fo the svg icon
+strokeColor: PropTypes.string,
+
+// do you want these animations?
+hasRock: PropTypes.bool,
+hasNotes: PropTypes.bool,
+
+// click function prop
+onClick: PropTypes.func,
+
+// note colors Array
+// length between 0 and 4 inclusive
+// less than 4 that color will be randomly chosen from the palette
+noteColors: [null, null, null, null]
+```

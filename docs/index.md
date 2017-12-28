@@ -11,11 +11,13 @@
 
 #### Props
 
-```
+```javascript
 // fill color of the svg
 color: PropTypes.string,
+
 // stroke color of the svg
 strokeColor: PropTypes.string,
+
 // color of the ring animation
 ringColor: PropTypes.string,
 
@@ -31,6 +33,7 @@ size: PropTypes.oneOf([
   'large',
   'extraLarge'
 ]),
+
 // size of the ring animation
 // (distance from icon and ring radius)
 ringSize: PropTypes.oneOf([
@@ -48,6 +51,7 @@ labelContent: PropTypes.oneOfType([
   PropTypes.string,
   PropTypes.number
 ]),
+
 // position of the label relative to the svg
 labelPosition: PropTypes.oneOf([
   'top',
@@ -55,8 +59,10 @@ labelPosition: PropTypes.oneOf([
   'bottom',
   'right'
 ]),
+
 // color of the label font
 labelFontColor: PropTypes.string,
+
 // size of the label font
 labelFontSize: PropTypes.string,
 ```

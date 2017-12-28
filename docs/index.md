@@ -1,4 +1,6 @@
-Micro-interaction icons for ReactJS
+Micro-interaction icons for ReactJS using mo.js
+
+[Demo with editable React code]()
 
 ## Components
 * [Heart](#heart)
@@ -7,8 +9,6 @@ Micro-interaction icons for ReactJS
 * [Music](#music)
 
 ### Heart
-
-[Demo]()
 
 #### Props
 

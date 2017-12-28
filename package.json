@@ -24,6 +24,13 @@
     "url": "https://github.com/hungweiwu/pretty-interaction-icons/issues"
   },
   "homepage": "https://github.com/hungweiwu/pretty-interaction-icons#readme",
+  "dependencies": {
+    "styled-components": "^2.3.2",
+    "lodash": "^4.17.4",
+    "mo-js": "^0.288.2",
+    "polished": "^1.9.0",
+    "prop-types": "^15.6.0"
+  },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
@@ -39,12 +46,7 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.5.1",
     "eslint-watch": "^3.1.3",
-    "lodash": "^4.17.4",
-    "mo-js": "^0.288.2",
-    "polished": "^1.9.0",
-    "prop-types": "^15.6.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "styled-components": "^2.3.2"
+    "react-dom": "^16.2.0"
   }
 }

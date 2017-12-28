@@ -1,9 +1,9 @@
 
 ## Components
-* [Heart](#Heart)
-* [Like](#Like)
-* [MediumClap](#MediumClap)
-* [Music](#Music)
+* [Heart](#heart)
+* [Like](#like)
+* [MediumClap](#mediumclap)
+* [Music](#music)
 
 ### Heart
 

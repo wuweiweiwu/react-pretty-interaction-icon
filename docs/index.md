@@ -3,6 +3,7 @@ Micro-interaction icons for ReactJS using mo.js
 [Demo with editable React code]()
 
 ## Components
+
 * [Heart](#heart)
 * [Like](#like)
 * [MediumClap](#mediumclap)
@@ -188,17 +189,32 @@ size: PropTypes.oneOf([
 #### Props
 
 ```javascript
-// current clap count to be shown
+// current clap number
 clapCount: PropTypes.number,
 
-// total number of claps
+// total clap number
 clapCountTotal: PropTypes.number,
 
 // define value updates in this function (count updates)
 onClick: PropTypes.func,
 
-// duration of animation
-duration: PropTypes.number
+// duration of the burst animations
+duration: PropTypes.number,
+
+// color of the clap count font
+clapCountColor: PropTypes.string,
+
+// color of the clap total font
+clapTotalColor: PropTypes.string,
+
+// color of the label that pops up
+labelColor: PropTypes.string,
+
+// color of clap icon
+color: PropTypes.string,
+
+// number of burst animations
+burstCount: PropTypes.number
 ```
 
 ### Music

@@ -1,6 +1,10 @@
 Micro-interaction icons for ReactJS using mo.js
 
-[Demo with editable React code]()
+## Demos
+
+[Animocons](https://tympanus.net/Development/Animocons/)
+
+[Medium Clap](https://codepen.io/ohansemmanuel/full/dVdvJQ/)
 
 ## Components
 
@@ -70,6 +74,26 @@ labelFontColor: PropTypes.string,
 
 // size of the label font
 labelFontSize: PropTypes.string,
+```
+
+#### Default Props
+
+```javascript
+onClick: null,
+color: "danger",
+strokeColor: "danger",
+ringColor: "danger",
+
+hasRings: false,
+hasShrink: false,
+
+size: "medium",
+ringSize: "medium",
+
+labelContent: null,
+labelPosition: "top",
+labelFontColor: "silver",
+labelFontSize: "1em"
 ```
 
 ### Like
@@ -184,6 +208,38 @@ size: PropTypes.oneOf([
 ]),
 ```
 
+#### Default Props
+
+```javascript
+onClick: null,
+
+burstShape: "circle",
+burstCount: 5,
+burstStrokeColor: "darkSnow",
+burstFillColor: null,
+burstRadius: "medium",
+burstDirection: "all",
+burstOpacity: 0.6,
+
+ringColor: "darkSnow",
+ringRadius: "small",
+ringOpacity: 0.6,
+
+hasRing: false,
+hasShrink: false,
+hasBurst: false,
+hasTravel: false,
+
+labelContent: null,
+labelPosition: "top",
+labelFontColor: "silver",
+labelFontSize: "1em",
+
+color: "silver",
+strokeColor: "black",
+size: "medium"
+```
+
 ### MediumClap
 
 #### Props
@@ -217,6 +273,23 @@ color: PropTypes.string,
 burstCount: PropTypes.number
 ```
 
+#### Default Props
+
+```javascript
+clapCount: 0,
+clapCountTotal: 0,
+onClick: null,
+duration: 300,
+
+clapCountColor: "white",
+clapTotalColor: "silver",
+
+labelColor: "darkGreen",
+color: "darkGreen",
+
+burstCount: 5
+```
+
 ### Music
 
 #### Props
@@ -248,4 +321,20 @@ onClick: PropTypes.func,
 // length between 0 and 4 inclusive
 // less than 4 that color will be randomly chosen from the palette
 noteColors: [null, null, null, null]
+```
+
+#### Default Props
+
+```javascript
+size: "medium",
+color: "silver",
+strokeColor: "black",
+
+hasRock: false,
+hasNotes: false,
+
+onClick: null,
+
+// default is random colors
+noteColors: [randomColor(), randomColor(), randomColor(), randomColor()]
 ```

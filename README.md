@@ -20,7 +20,7 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
 
 #### MediumClap
 
-![](http://www.giphy.com/gifs/3o751ZwhxQSz8SS46c)
+![Medium clap gif](https://media.giphy.com/media/3o751ZwhxQSz8SS46c/giphy.gif)
 
 ```javascript
 <MediumClap
@@ -34,7 +34,7 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
 
 #### Like
 
-![](http://www.giphy.com/gifs/3o75245682ipTVU2fC)
+![Like gif](https://media.giphy.com/media/3o75245682ipTVU2fC/giphy.gif)
 
 ```javascript
 <Like
@@ -57,7 +57,7 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
 
 #### Music
 
-![](http://www.giphy.com/gifs/3o7525GciGyEel2cuc)
+![Music gif](https://media.giphy.com/media/3o7525GciGyEel2cuc/giphy.gif)
 
 ```javascript
 <Music
@@ -70,7 +70,7 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
 
 #### Heart
 
-![](http://www.giphy.com/gifs/3o751T2NAs8tDPu59u)
+![Heart gif](https://media.giphy.com/media/3o751T2NAs8tDPu59u/giphy.gif)
 
 ```javascript
 <Heart

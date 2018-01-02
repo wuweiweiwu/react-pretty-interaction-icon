@@ -20,6 +20,8 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
 
 #### MediumClap
 
+![](http://www.giphy.com/gifs/3o751ZwhxQSz8SS46c)
+
 ```javascript
 <MediumClap
   size="medium"
@@ -31,6 +33,8 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
 ```
 
 #### Like
+
+![](http://www.giphy.com/gifs/3o75245682ipTVU2fC)
 
 ```javascript
 <Like
@@ -53,6 +57,8 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
 
 #### Music
 
+![](http://www.giphy.com/gifs/3o7525GciGyEel2cuc)
+
 ```javascript
 <Music
   hasNotes
@@ -63,6 +69,8 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
 ```
 
 #### Heart
+
+![](http://www.giphy.com/gifs/3o751T2NAs8tDPu59u)
 
 ```javascript
 <Heart

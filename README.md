@@ -1,4 +1,4 @@
-## Pretty Interaction Icons
+# Pretty Interaction Icons
 
 This is my attempt to create a npm package containing interaction icons that look cool w mo.js
 
@@ -10,19 +10,31 @@ Inspired by this [Medium post](https://medium.freecodecamp.org/how-i-re-built-th
 
 Credit to Codrops + Ohans Emmanuel
 
+## Table of Content
+
+* [Examples](#examples)
+  * [Heart](#heart)
+  * [Like](#like)
+  * [MediumClap](#mediumclap)
+  * [Music](#music)
+* [PropTypes & Default Props](http://theweiweiwu.com/pretty-interaction-icons/)
+* [Development](#development)
+  * [Setup](#setup)
+  * [Running](#running)
+
 ---
 
 **PropTypes & Default Props [HERE](http://theweiweiwu.com/pretty-interaction-icons/)**
 
 ---
 
-### Examples
+## Examples
 
 ```javascript
 import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
 ```
 
-#### MediumClap
+### MediumClap
 
 ![Medium clap gif](https://media.giphy.com/media/3o751ZwhxQSz8SS46c/giphy.gif)
 
@@ -38,7 +50,7 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
 
 ---
 
-#### Like
+### Like
 
 ![Like gif](https://media.giphy.com/media/3o75245682ipTVU2fC/giphy.gif)
 
@@ -63,7 +75,7 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
 
 ---
 
-#### Music
+### Music
 
 ![Music gif](https://media.giphy.com/media/3o7525GciGyEel2cuc/giphy.gif)
 
@@ -78,7 +90,7 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
 
 ---
 
-#### Heart
+### Heart
 
 ![Heart gif](https://media.giphy.com/media/3o751T2NAs8tDPu59u/giphy.gif)
 
@@ -94,3 +106,55 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
   labelPosition="top"
 />
 ```
+
+## Development
+
+clone the component-lib-playground + this repo
+
+```
+git clone https://github.com/hungweiwu/pretty-interaction-icons
+git clone https://github.com/hungweiwu/component-lib-playground
+```
+
+### Setup
+
+Link the `pretty-interaction-icons` package to global npm node modules folder
+
+```
+cd pretty-interaction-icons && npm link
+```
+
+Link in the playground
+
+```
+cd component-lib-playground && npm link pretty-interaction-icon
+```
+
+and now you can do
+
+```javascript
+import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
+```
+
+this inside `App.js` in the component-lib-playground
+
+### Running
+
+inside pretty-interaction-icons root directory run
+
+```
+npm run build:watch
+npm run lint:watch
+```
+
+for live linting and re-transpiling
+
+inside component-lib-playground root directory run
+
+```
+npm run dev
+```
+
+It will serve a React app on localhost:8080
+
+HAPPY DEVELOPING :)

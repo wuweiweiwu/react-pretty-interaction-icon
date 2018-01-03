@@ -8,7 +8,7 @@ npm install pretty-interaction-icons
 
 Inspired by this [Medium post](https://medium.freecodecamp.org/how-i-re-built-the-medium-clap-effect-and-what-i-got-out-of-the-experiment-991672995fdf?source=user_profile---------6----------------)
 
-[DOCS](http://theweiweiwu.com/pretty-interaction-icons/)
+[DOCS](http://theweiweiwu.com/pretty-interaction-icons/) PropTypes & Default Props
 
 Credit to Codrops + Ohans Emmanuel
 

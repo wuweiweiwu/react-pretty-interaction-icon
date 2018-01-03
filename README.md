@@ -10,6 +10,8 @@ Inspired by this [Medium post](https://medium.freecodecamp.org/how-i-re-built-th
 
 Credit to Codrops + Ohans Emmanuel
 
+---
+
 **PropTypes & Default Props [HERE](http://theweiweiwu.com/pretty-interaction-icons/)**
 
 ---

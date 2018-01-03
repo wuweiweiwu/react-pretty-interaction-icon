@@ -1,6 +1,6 @@
 {
   "name": "pretty-interaction-icons",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "pretty interaction icons for React",
   "main": "build/index.js",
   "scripts": {

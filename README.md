@@ -8,9 +8,13 @@ npm install pretty-interaction-icons
 
 Inspired by this [Medium post](https://medium.freecodecamp.org/how-i-re-built-the-medium-clap-effect-and-what-i-got-out-of-the-experiment-991672995fdf?source=user_profile---------6----------------)
 
+Credit to Codrops + Ohans Emmanuel
+
+---
+
 **PropTypes & Default Props [DOCS](http://theweiweiwu.com/pretty-interaction-icons/)**
 
-Credit to Codrops + Ohans Emmanuel
+---
 
 ### Examples
 
@@ -31,6 +35,8 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
   clapCountTotal={10}
 />
 ```
+
+---
 
 #### Like
 
@@ -55,6 +61,8 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
 />
 ```
 
+---
+
 #### Music
 
 ![Music gif](https://media.giphy.com/media/3o7525GciGyEel2cuc/giphy.gif)
@@ -67,6 +75,8 @@ import { MediumClap, Like, Music, Heart } from "pretty-interaction-icons";
   noteColors={["danger", "warning", "darkGreen", "warning"]}
 />
 ```
+
+---
 
 #### Heart
 

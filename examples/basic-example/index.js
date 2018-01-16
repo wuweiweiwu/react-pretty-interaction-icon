@@ -5,6 +5,7 @@ import { AppContainer } from 'react-hot-loader'; // eslint-disable-line import/n
 // import HTML5Backend from 'react-dnd-html5-backend';
 //
 import App from './app';
+import 'animate.css/animate.min.css';
 
 const rootEl = document.getElementById('app');
 // const render = Component => {
@@ -19,7 +20,7 @@ const rootEl = document.getElementById('app');
 // };
 
 /* eslint-disable global-require, import/newline-after-import */
-ReactDOM.render(<App/>, rootEl);
+ReactDOM.render(<App />, rootEl);
 if (module.hot)
-  module.hot.accept('./app', () => ReactDOM.render(<App/>, rootEl));
+  module.hot.accept('./app', () => ReactDOM.render(<App />, rootEl));
 /* eslint-enable global-require, import/newline-after-import */

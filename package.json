@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hungweiwu/pretty-interaction-icons.git"
+    "url": "git+https://github.com/wuweiweiwu/pretty-interaction-icons.git"
   },
   "keywords": [
     "React",
@@ -21,9 +21,9 @@
   "author": "Wei-Wei Wu wuxx1045@umn.edu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hungweiwu/pretty-interaction-icons/issues"
+    "url": "https://github.com/wuweiweiwu/pretty-interaction-icons/issues"
   },
-  "homepage": "https://github.com/hungweiwu/pretty-interaction-icons#readme",
+  "homepage": "https://github.com/wuweiweiwu/pretty-interaction-icons#readme",
   "dependencies": {
     "styled-components": "^2.3.2",
     "lodash": "^4.17.4",

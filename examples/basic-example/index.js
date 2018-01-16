@@ -14,12 +14,13 @@ ReactDOM.render(
   rootEl
 );
 if (module.hot) {
-  module.hot.accept('./app', () =>
+  module.hot.accept('./app', () => {
+    const NextApp = require('./app').default;
     ReactDOM.render(
       <AppContainer>
-        <App />
+        <NextApp />
       </AppContainer>,
       rootEl
-    )
-  );
+    );
+  });
 }

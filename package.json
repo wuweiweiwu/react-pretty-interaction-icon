@@ -56,12 +56,9 @@
     "animejs": "^2.2.0",
     "bounce.js": "^0.8.2",
     "lodash": "^4.17.4",
-    "mo-js": "^0.288.2",
-    "polished": "^1.9.0",
     "prop-types": "^15.6.0",
     "react-icons": "^2.2.7",
-    "react-sortable-tree": "^1.6.0",
-    "styled-components": "^2.3.2"
+    "react-sortable-tree": "^1.6.0"
   },
   "peerDependencies": {
     "react": "^15.3.0 || ^16.0.0",

@@ -3,51 +3,46 @@
   "version": "1.1.4",
   "description": "React component animated with different animation libraries",
   "scripts": {
-    "build": "npm run clean && cross-env NODE_ENV=production TARGET=umd webpack --bail",
-    "build:demo": "npm run clean:demo && cross-env NODE_ENV=production TARGET=demo webpack --bail && npm run build-storybook",
+    "build":
+      "npm run clean && cross-env NODE_ENV=production TARGET=umd webpack --bail",
+    "build:demo":
+      "npm run clean:demo && cross-env NODE_ENV=production TARGET=demo webpack --bail && npm run build-storybook",
     "clean": "rimraf dist",
     "clean:demo": "rimraf build",
-    "start": "cross-env NODE_ENV=development TARGET=development webpack-dev-server --inline --hot",
+    "start":
+      "cross-env NODE_ENV=development TARGET=development webpack-dev-server --inline --hot",
     "lint": "eslint src examples",
-    "prettier": "prettier --single-quote --trailing-comma es5 --write \"{src,examples}/**/*.{js,scss}\"",
+    "prettier":
+      "prettier --single-quote --trailing-comma es5 --write \"{src,examples}/**/*.{js,scss}\"",
     "prepublishOnly": "npm run lint && npm run test && npm run build",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "test:coverage": "jest --coverage && ./cc-test-reporter after-build --id=\"0c884bbed7f76e9ac463d95b67d71287442a09af790ad8c74df1c49fcb1bbd82\"",
+    "test:coverage":
+      "jest --coverage && ./cc-test-reporter after-build --id=\"67176e18ac7fe1c44408f5e99db888c0a28d4a677a34baf671ba72e8930ee22a\"",
     "deploy": "npm run build:demo && gh-pages -d build",
-    "storybook": "cross-env TARGET=development start-storybook -p ${PORT:-3001} -h 0.0.0.0",
-    "build-storybook": "cross-env NODE_ENV=production TARGET=demo build-storybook -o build/storybook"
+    "storybook":
+      "cross-env TARGET=development start-storybook -p ${PORT:-3001} -h 0.0.0.0",
+    "build-storybook":
+      "cross-env NODE_ENV=production TARGET=demo build-storybook -o build/storybook"
   },
   "main": "dist/main.js",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "https://github.com/wuweiweiwu/pretty-interaction-icon"
   },
   "homepage": "https://github.com/wuweiweiwu/pretty-interaction-icon",
   "bugs": "https://github.com/wuweiweiwu/pretty-interaction-icon/issues",
-  "authors": [
-    "Wei-Wei Wu"
-  ],
+  "authors": ["Wei-Wei Wu"],
   "license": "MIT",
   "jest": {
     "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
-    "setupFiles": [
-      "./test-config/shim.js",
-      "./test-config/test-setup.js"
-    ],
-    "moduleFileExtensions": [
-      "js",
-      "jsx",
-      "json"
-    ],
-    "moduleDirectories": [
-      "node_modules"
-    ],
+    "setupFiles": ["./test-config/shim.js", "./test-config/test-setup.js"],
+    "moduleFileExtensions": ["js", "jsx", "json"],
+    "moduleDirectories": ["node_modules"],
     "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
+        "<rootDir>/__mocks__/fileMock.js",
       "\\.(css|scss|less)$": "identity-obj-proxy"
     }
   },
@@ -119,8 +114,5 @@
     "webpack-dev-server": "^2.10.1",
     "webpack-node-externals": "^1.6.0"
   },
-  "keywords": [
-    "react",
-    "react-component"
-  ]
+  "keywords": ["react", "react-component"]
 }

@@ -3,7 +3,7 @@ node_js:
   - "node"
 env:
   global:
-    - CC_TEST_REPORTER_ID=0c884bbed7f76e9ac463d95b67d71287442a09af790ad8c74df1c49fcb1bbd82
+    - CC_TEST_REPORTER_ID=67176e18ac7fe1c44408f5e99db888c0a28d4a677a34baf671ba72e8930ee22a
     - GIT_COMMITTED_AT=$(if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then git log -1 --pretty=format:%ct; else git log -1 --skip 1 --pretty=format:%ct; fi)
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter

@@ -1,7 +1,7 @@
 {
-  "name": "react-pretty-interaction-icons",
+  "name": "react-pretty-interaction-icon",
   "version": "1.1.4",
-  "description": "React components animated using mo-js",
+  "description": "React component animated with different animation libraries",
   "scripts": {
     "build": "npm run clean && cross-env NODE_ENV=production TARGET=umd webpack --bail",
     "build:demo": "npm run clean:demo && cross-env NODE_ENV=production TARGET=demo webpack --bail && npm run build-storybook",
@@ -24,10 +24,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wuweiweiwu/pretty-interaction-icons"
+    "url": "https://github.com/wuweiweiwu/pretty-interaction-icon"
   },
-  "homepage": "https://github.com/wuweiweiwu/pretty-interaction-icons",
-  "bugs": "https://github.com/wuweiweiwu/pretty-interaction-icons/issues",
+  "homepage": "https://github.com/wuweiweiwu/pretty-interaction-icon",
+  "bugs": "https://github.com/wuweiweiwu/pretty-interaction-icon/issues",
   "authors": [
     "Wei-Wei Wu"
   ],

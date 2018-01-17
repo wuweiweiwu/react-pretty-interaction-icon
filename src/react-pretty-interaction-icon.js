@@ -7,6 +7,7 @@ const classNames = require('classnames');
 
 import styles from './react-pretty-interaction-icons.scss';
 import animate from 'animate.css/animate.min.css';
+import magic from './magic.min.css';
 
 // curried util functions
 import { objectContainsKey, getObjectValue, ID } from './utils/generic-utils';
@@ -31,10 +32,12 @@ class ReactPrettyInteractionIcon extends Component {
       <span
         id={this.ID}
         className={classNames(
-          styles.pii,
-          animate.animated,
-          !cssInfinite || animate.infinite,
-          !start || getAnimationClass(cssAnimation)
+          magic.magictime,
+          magic.puffIn,
+          styles.pii
+          // animate.animated,
+          // !cssInfinite || animate.infinite,
+          // !start || getAnimationClass(cssAnimation)
         )}
       >
         <i data-feather={icon} {...attrs} />

@@ -55,6 +55,8 @@
     "animate.css": "^3.5.2",
     "animejs": "^2.2.0",
     "bounce.js": "^0.8.2",
+    "classnames": "^2.2.5",
+    "feather-icons": "^4.5.0",
     "lodash": "^4.17.4",
     "prop-types": "^15.6.0",
     "react-icons": "^2.2.7",

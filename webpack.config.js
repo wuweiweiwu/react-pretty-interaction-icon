@@ -73,6 +73,7 @@ const config = {
         // Used for importing css from external modules (react-virtualized, etc.)
         test: /\.css$/,
         use: [styleLoader, cssLoader(false), postcssLoader],
+        // use: [styleLoader, cssLoader(false)],
       },
     ],
   },

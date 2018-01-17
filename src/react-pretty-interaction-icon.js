@@ -9,11 +9,16 @@ import styles from './react-pretty-interaction-icons.scss';
 import animate from 'animate.css/animate.min.css';
 
 // curried util functions
-import { objectContainsKey, getObjectValue } from './utils/generic-utils';
+import { objectContainsKey, getObjectValue, ID } from './utils/generic-utils';
 const isValidIcon = objectContainsKey(feather.icons);
 const getAnimationClass = getObjectValue(animate);
 
 class ReactPrettyInteractionIcon extends Component {
+  constructor(props) {
+    super(props);
+    this.ID = ID();
+  }
+
   componentDidMount() {
     // get all the icons rendered
     feather.replace();
@@ -24,6 +29,7 @@ class ReactPrettyInteractionIcon extends Component {
 
     return (
       <span
+        id={this.ID}
         className={classNames(
           styles.pii,
           animate.animated,
@@ -31,10 +37,7 @@ class ReactPrettyInteractionIcon extends Component {
           !start || getAnimationClass(cssAnimation)
         )}
       >
-        <i
-          data-feather={icon}
-          {...attrs}
-        />
+        <i data-feather={icon} {...attrs} />
       </span>
     );
   }

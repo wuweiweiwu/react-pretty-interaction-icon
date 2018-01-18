@@ -24,10 +24,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/wuweiweiwu/pretty-interaction-icon"
+    "url": "https://github.com/wuweiweiwu/react-pretty-interaction-icon"
   },
-  "homepage": "https://github.com/wuweiweiwu/pretty-interaction-icon",
-  "bugs": "https://github.com/wuweiweiwu/pretty-interaction-icon/issues",
+  "homepage": "https://github.com/wuweiweiwu/react-pretty-interaction-icon",
+  "bugs": "https://github.com/wuweiweiwu/react-pretty-interaction-icon/issues",
   "authors": [
     "Wei-Wei Wu"
   ],
